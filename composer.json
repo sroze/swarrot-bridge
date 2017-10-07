@@ -1,0 +1,29 @@
+{
+    "name": "sroze/swarrot-bridge",
+    "type": "symfony-bridge",
+    "description": "Swarrot bridge for Symfony Message component",
+    "keywords": ["symfony", "message", "swarrot"],
+    "homepage": "http://symfony.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel Roze",
+            "email": "samuel.roze@gmail.com"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "http://symfony.com/contributors"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": { "Sam\\Symfony\\Bridge\\SwarrotMessage\\": "" }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
