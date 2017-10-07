@@ -16,6 +16,7 @@
         }
     ],
     "require": {
+        "swarrot/swarrot-bundle": "^1.5@dev"
     },
     "autoload": {
         "psr-4": { "Sam\\Symfony\\Bridge\\SwarrotMessage\\": "" }
